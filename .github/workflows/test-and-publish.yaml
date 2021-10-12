@@ -1,6 +1,7 @@
 name: test-and-publish
 
 on:
+  workflow_dispatch:
   # run on all pushes to any branch
   push:
   # run only on master pull requests
