@@ -20,11 +20,9 @@ classifiers = [
 ]
 include = ["CHANGELOG.md"]
 
-[tool.poetry.scripts]
-nialog = "nialog.cli:app"
-
 [tool.poetry.dependencies]
 python = "^3.8"
+python-json-logger = "^2.0.2"
 
 # Extras
 # Coverage
