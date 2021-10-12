@@ -101,9 +101,6 @@ def tests_pip(session):
         COVERAGE_SVG_PATH.parent.mkdir(parents=True)
     session.run("coverage-badge", "-o", str(COVERAGE_SVG_PATH))
 
-    # Test that entrypoint works.
-    session.run(PACKAGE_NAME.replace("_", "-"), "--help")
-
 
 @nox.session(python=PYTHON_VERSIONS)
 def notebooks(session):
