@@ -3,6 +3,21 @@ Documentation
 
 |Documentation Status| |PyPI Status| |CI Test| |Coverage|
 
+Introduction
+------------
+
+Simple package/script to setup ``JSON`` logging for a Python app or script.
+Uses `python-json-logger <https://github.com/madzak/python-json-logger>`__ and
+is mostly just a wrapper around it. Instead of adding this script to every
+Python module that I/you create you can just add this as a dependency and call:
+
+.. code:: python
+
+   from nialog.logger import setup_module_logging
+
+   # Default logging level is WARNING
+   setup_module_logging()
+
 Running tests
 -------------
 
@@ -11,6 +26,12 @@ To run pytest in currently installed environment:
 .. code:: bash
 
    poetry run pytest
+
+To run test suite best suited for before pushing to e.g. GitHub.
+
+.. code:: bash
+
+   poetry run invoke prepush
 
 To run full extensive test suite:
 
