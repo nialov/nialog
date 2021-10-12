@@ -1,0 +1,11 @@
+# Changes here will be overwritten by Copier
+_commit: 2e44ef1
+_src_path: https://github.com/nialov/nialov-py-template.git
+classifier: 'Topic :: System :: Logging'
+description: JSON logging setup for Python.
+email: nikolasovaskainen@gmail.com
+full_name: Nikolas Ovaskainen
+github_account: nialov
+keyword: logging
+package: nialog
+year: 2021
