@@ -5,8 +5,8 @@ authors:
 - family-names: Ovaskainen
   given-names: Nikolas
 title: "nialog"
-version: "0.0.0.post6.dev0+c3ba216"
-date-released: "2021-10-12"
+version: "0.0.1"
+date-released: "2021-10-19"
 keywords:
   - python
   - logging
