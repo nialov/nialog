@@ -6,7 +6,7 @@ authors:
   given-names: Nikolas
 title: "nialog"
 version: "0.0.1"
-date-released: "2021-10-19"
+date-released: "2021-11-11"
 keywords:
   - python
   - logging
