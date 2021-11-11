@@ -5,10 +5,25 @@ Logging setup.
 import logging
 import sys
 from datetime import datetime
+from enum import Enum, unique
 
 from pythonjsonlogger import jsonlogger
 
 LOGGING_JSON_INDENT = 2
+
+
+@unique
+class LoggingLevel(Enum):
+
+    """
+    Enums for logging levels.
+    """
+
+    DEBUG = "DEBUG"
+    INFO = "INFO"
+    WARNING = "WARNING"
+    ERROR = "ERROR"
+    CRITICAL = "CRITICAL"
 
 
 class CustomJsonFormatter(jsonlogger.JsonFormatter):
