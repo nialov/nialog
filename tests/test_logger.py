@@ -41,3 +41,12 @@ def test_setup_module_logging(logging_level_int: int, json_indent: int, caplog, 
     assert "logging_level_int" in captured_stderr
 
     assert len(captured_stdout) == 0
+
+
+def test_logging_level_enums():
+    """
+    Test LoggingLevel.
+    """
+    for logging_level in logger.LoggingLevel:
+        assert hasattr(logging, logging_level.value)
+        assert isinstance(getattr(logging, logging_level.value), int)
