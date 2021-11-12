@@ -13,10 +13,14 @@ Python module that I/you create you can just add this as a dependency and call:
 
 .. code:: python
 
-   from nialog.logger import setup_module_logging
+   from nialog import setup_module_logging, LoggingLevel
 
    # Default logging level is WARNING
    setup_module_logging()
+
+   # LoggingLevel has enums for default logging module levels
+   # Can be used with e.g. typer as command-line inputs
+   LoggingLevel.DEBUG.value == "DEBUG" # = True
 
 Running tests
 -------------
