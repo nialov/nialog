@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased (2021-11-12)
+
+Full set of changes:
+[`v0.0.2...e1f6c83`](https://github.com/nialov/nialog/compare/v0.0.2...e1f6c83)
+
 ## v0.0.2 (2021-11-12)
 
 #### New Features
