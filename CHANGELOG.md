@@ -1,13 +1,13 @@
 # Changelog
 
-## Unreleased (2021-11-12)
+## v0.0.2 (2021-11-12)
 
 #### New Features
 
 -   (logger): add LoggingLevel enums
 
 Full set of changes:
-[`v0.0.1...8c02eb0`](https://github.com/nialov/nialog/compare/v0.0.1...8c02eb0)
+[`v0.0.1...v0.0.2`](https://github.com/nialov/nialog/compare/v0.0.1...v0.0.2)
 
 ## v0.0.1 (2021-10-19)
 
