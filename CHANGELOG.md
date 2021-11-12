@@ -7,7 +7,7 @@
 -   (logger): add LoggingLevel enums
 
 Full set of changes:
-[`v0.0.1...89e5de6`](https://github.com/nialov/nialog/compare/v0.0.1...89e5de6)
+[`v0.0.1...8c02eb0`](https://github.com/nialov/nialog/compare/v0.0.1...8c02eb0)
 
 ## v0.0.1 (2021-10-19)
 

@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "nialog"
-version = "0.0.1.post5.dev0+89e5de6"
+version = "0.0.1.post8.dev0+8c02eb0"
 description = "JSON logging setup for Python."
 authors = ["nialov <nikolasovaskainen@gmail.com>"]
 readme = "README.rst"
