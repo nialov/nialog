@@ -1,5 +1,5 @@
 # Changes here will be overwritten by Copier
-_commit: 2e44ef1
+_commit: e1bcd3e
 _src_path: https://github.com/nialov/nialov-py-template.git
 classifier: 'Topic :: System :: Logging'
 description: JSON logging setup for Python.
