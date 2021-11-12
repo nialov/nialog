@@ -20,7 +20,7 @@ Python module that I/you create you can just add this as a dependency and call:
 
    # LoggingLevel has enums for default logging module levels
    # Can be used with e.g. typer as command-line inputs
-   LoggingLevel.DEBUG.value == "DEBUG" # = True
+   LoggingLevel.DEBUG.value == "DEBUG"  # = True
 
 Running tests
 -------------
