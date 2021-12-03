@@ -90,6 +90,8 @@ License
 
 Copyright © 2021, Nikolas Ovaskainen.
 
+-----
+
 
 .. |Documentation Status| image:: https://readthedocs.org/projects/nialog/badge/?version=latest
    :target: https://nialog.readthedocs.io/en/latest/?badge=latest
